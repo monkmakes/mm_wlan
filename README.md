@@ -16,7 +16,7 @@ On a Pico, copy the file mm_wlan.py onto the Pico's file system. You can do this
 
 hello.py a minimal web server example using microdot.
 
-`
+``` python
 from microdot import Microdot
 import mm_wlan
 
@@ -31,22 +31,22 @@ def index(request):
     return 'Hello, from Pico'
 
 app.run(port=80)
-`
+```
 
 Make sure that both microdot.py and mm_wlan.py are copied onto your Pico and then change **ssid** and **passowrd** before you run hello.py. You should see something like this in your Shell. Progress is marked by dots until a connection is made or it gives up.
-`
+```
 MicroPython v1.19.1 on 2022-08-11; Raspberry Pi Pico W with RP2040
 Type "help()" for more information.
 >>> %Run -c $EDITOR_CONTENT
 Connecting to MONKMAKES_GUEST ......
 Connected IP Address = 192.168.1.132
-`
+```
 
 # Usage
 
-`
+```
 connect_to_network(ssid, password, retries=10, verbose=True)
-`
+```
 
 By default, the connection process will wait for 10 seconds before giving up. You can alter this by changing the optional `retries` paramater.
 If you don't want the connecting messages cluttering up your Python console, then set the optional `verbose` parameter to `False`.
