@@ -10,7 +10,7 @@ I've only tested it on a Raspberry Pi Pico, but it should work on most WiFi-capa
 
 # Installation
 
-On a Pico, copy the file mm_wlan.py onto the Pico's file system. You can do this in Thonny using the **Save a Copy** option.
+On a Pico W, copy the file mm_wlan.py onto the Pico's file system. You can do this in Thonny using the **Save a Copy** option.
 
 # Example
 
@@ -33,7 +33,7 @@ def index(request):
 app.run(port=80)
 ```
 
-Make sure that both microdot.py and mm_wlan.py are copied onto your Pico and then change **ssid** and **password** before you run hello.py. You should see something like this in your Shell. Progress is marked by dots until a connection is made or it gives up.
+Make sure that both microdot.py and mm_wlan.py are copied onto your Pico W and then change **ssid** and **password** before you run hello.py. You should see something like this in your Shell. Progress is marked by dots until a connection is made or it gives up.
 ```
 MicroPython v1.19.1 on 2022-08-11; Raspberry Pi Pico W with RP2040
 Type "help()" for more information.
