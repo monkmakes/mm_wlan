@@ -5,8 +5,8 @@ import gc
 ssid = 'my network name'
 password = 'my passord'
 
-ssid = 'MONKMAKES_GUEST'
-password = '6KeCt4cu9YfY'
+ssid = 'Network'
+password = 'password'
 
 app = Microdot()  
 mm_wlan.connect_to_network(ssid, password)
