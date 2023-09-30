@@ -8,7 +8,7 @@ setup(
   author = 'Simon Monk',                  
   author_email = 'simon@monkmakes.com',      
   url = 'https://github.com/monkmakes/mm_wlan',  
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/monkmakes/mm_wlan/archive/refs/tags/v_01.tar.gz',   
   keywords = ['WLAN', 'micropython', 'webserver'],  
   install_requires=[],
   classifiers=[
