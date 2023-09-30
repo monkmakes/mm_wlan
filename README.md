@@ -10,6 +10,10 @@ I've only tested it on a Raspberry Pi Pico, but it should work on most WiFi-capa
 
 # Installation
 
+```
+$ pip install mm_wlan
+```
+
 On a Pico W, copy the file mm_wlan.py onto the Pico's file system. You can do this in Thonny using the **Save a Copy** option.
 
 # Example
