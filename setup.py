@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'mm_wlan',         
   packages = ['mm_wlan'],   
-  version = '0.2',      
+  version = '0.4',      
   license='MIT',       
   description = 'WLAN Connection functions in MicroPython',  
-  author = 'Simon Monk',                  
+  author = 'Simon Monk and José Antonio Vacas',                  
   author_email = 'simon@monkmakes.com',      
   url = 'https://github.com/monkmakes/mm_wlan',  
-  download_url = 'https://github.com/monkmakes/mm_wlan/archive/refs/tags/v_01.tar.gz',   
+  download_url = 'https://github.com/monkmakes/mm_wlan/archive/refs/tags/v_02.tar.gz',   
   keywords = ['WLAN', 'micropython', 'webserver'],  
   install_requires=[],
   classifiers=[
