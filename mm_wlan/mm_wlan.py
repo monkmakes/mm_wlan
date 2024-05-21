@@ -23,7 +23,7 @@ def connect_to_network(ssid, password, retries=10, verbose=True):
         if verbose: print('.', end='')
         time.sleep(1)    
         
-    if is_connected():
+    if not is_connected():
         if verbose: print('\nConnection failed. Check ssid and password')
         raise RuntimeError('WLAN connection failed')
     else:
