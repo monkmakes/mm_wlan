@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'mm_wlan',         
   packages = ['mm_wlan'],   
-  version = '0.4',      
+  version = '0.5',      
   license='MIT',       
   description = 'WLAN Connection functions in MicroPython',  
   author = 'Simon Monk and José Antonio Vacas',                  
